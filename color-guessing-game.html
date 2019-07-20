@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Color Guessing Game</title>
+  </head>
+  <body onload = "playGame()">
+    <script>
+      function playGame() {
+
+      var colors = ["blue", "cyan", "gray", "green", "magenta"]
+      var RandomColor = function () {
+          return Math.floor(Math.random * (colors.length))
+      };
+
+      var whatColor = prompt ("I am thinking of one of these colors:\n\n"+colors.join(", ")+" "+"\n\nWhat color am I thinking of?")
+    };
+    </script>
+  </body>
+</html>
