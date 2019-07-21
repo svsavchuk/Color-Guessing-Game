@@ -3,18 +3,13 @@
   <head>
     <meta charset="utf-8">
     <title>Color Guessing Game</title>
+    <script src = "js/scripts.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
   </head>
-  <body onload = "playGame()">
-    <script>
-      function playGame() {
-
-      var colors = ["blue", "cyan", "gray", "green", "magenta"]
-      var RandomColor = function () {
-          return Math.floor(Math.random * (colors.length))
-      };
-
-      var whatColor = prompt ("I am thinking of one of these colors:\n\n"+colors.join(", ")+" "+"\n\nWhat color am I thinking of?")
-    };
-    </script>
+  <!-- <body onload = "playGame()"> -->
+    <body>
+      <div>
+      <button onclick="playGame()" type="button" class="button" name="button">Click here to play</button>
+    </div>
   </body>
 </html>

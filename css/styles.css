@@ -1,0 +1,39 @@
+
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  background-color: #FFFFFF;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  margin-top: 50%;
+  background: #FF6347;
+  color: #FFFFFF;
+  width: 12em;
+  height: 3em;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  border-radius: 0.5em;
+  border: none;
+  justify-content: center;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+}
+
+.button:hover {
+  background: #C04B36;
+}
+
+.button:active {
+  transform: scale(.98);
+}
+
+.button:focus {
+  outline:none;
+}
