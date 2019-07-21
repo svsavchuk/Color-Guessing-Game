@@ -1,7 +1,7 @@
 
 var finished = false;
 var userColor;
-var targetColor
+var targetColor;
 var guesses = 0;
 var colors = ["gray", "magenta", "green", "cyan", "purple"];
 var targetIndex;
@@ -9,7 +9,7 @@ var targetIndex;
 function playGame() {
 
   function refreshPage() {
-    document.location.reload(true)
+    document.location.reload()
   }
 
   targetIndex = Math.floor(Math.random() * colors.length)
